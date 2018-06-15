@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/constraintLayout"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:typeface="serif"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:id="@+id/tvTask"
+            android:text="Task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:typeface="serif"
+            android:id="@+id/tvDate"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:text="On May 15 2018 at 23:51 pm"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
